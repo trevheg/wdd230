@@ -1,0 +1,14 @@
+@media screen and (min-width: 500px)
+{
+    .sections{
+        grid-template-columns: 2fr 1fr;
+
+    }
+    nav ul {
+        display:flex;
+        justify-content: space-around;
+
+    }
+    nav a {
+    }
+}
