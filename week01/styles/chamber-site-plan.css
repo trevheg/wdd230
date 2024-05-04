@@ -1,0 +1,73 @@
+:root {
+    --primary-color: #06816d;
+    --secondary-color: #dbf7f2;
+    --tertiary-color: #be4312;
+    --quaternary-color: #e7d4b0;
+}
+
+body {
+    color: var(--tertiary-color);
+    max-width: 1000px;
+    background-color: var(--secondary-color);
+    font-family: kalam;
+    
+}
+
+h1 {
+    font-family: "tangerine";
+    font-size: 3rem;
+}
+h2 {
+    font-family: "Dancing Script";
+}
+#colors {
+    display: flex;
+    justify-content: space-around;
+
+}
+#colors li {
+    margin: 1rem;
+    list-style: none;
+    text-align: center;
+}
+
+#primary {
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color);
+    /* box-shadow: 3px, 3px, 5px, black; */
+}
+
+#secondary {
+    width: 100px;
+    height: 100px;
+    background-color: var(--secondary-color);
+    border: 1px solid black;
+    /* box-shadow: 3px, 3px, 5px, black; */
+}
+
+#tertiary {
+    width: 100px;
+    height: 100px;
+    background-color: var(--tertiary-color);
+    /* box-shadow: 3px, 3px, 5px, black; */
+}
+
+#quaternary {
+    width: 100px;
+    height: 100px;
+    background-color: var(--quaternary-color);
+    /* box-shadow: 3px, 3px, 5px, black; */
+}
+
+.tangerine {
+    font-family: tangerine;
+    font-size: 2rem;
+}
+.dancing {
+    font-family: "Dancing Script";
+    font-size: 1.3rem;
+}
+.kalam {
+    font-family: kalam;
+}
