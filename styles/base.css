@@ -1,10 +1,10 @@
 :root {
     /* --primary-color: #eaf7a5; */
-    --primary-color: #e3f032;
+    --primary-color: #eecba4;
 
-    --secondary-color: #FFCF79;
-    --tertiary-color: #2C6700;
-    --quaternary-color: #E5E4D7;
+    --secondary-color: #ffeac4;
+    --tertiary-color: #255500;
+    --quaternary-color: #eaeff1;
 }
 
 body {
