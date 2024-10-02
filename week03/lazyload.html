@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Demo</title>
+    <meta name="description" content="WDD 230 Lazy Loading Demo">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/getDates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Demo</h1>
+    </header>
+    <main>
+        <img src="//via.placeholder.com/400x600?text=test+1" alt="Eager Loading Test" loading="eager" width="400" height="600">
+        <img src="//via.placeholder.com/400x600?text=test+2" alt="Eager Loading Test" loading="eager" width="400" height="600">
+        <img src="//via.placeholder.com/400x600?text=test+3" alt="Lazy Loading Test" loading="lazy" width="400" height="600">
+        <img src="//via.placeholder.com/400x600?text=test+4" alt="Lazy Loading Test" loading="lazy" width="400" height="600">
+        <img src="//via.placeholder.com/400x600?text=test+5" alt="Lazy Loading Test" loading="lazy" width="400" height="600">
+        <img src="//via.placeholder.com/400x600?text=test+6" alt="Lazy Loading Test" loading="lazy" width="400" height="600">
+    </main>
+    <footer>
+
+        <p>©2024 Trevor Hegstrom </p>
+        <p id="lastModified">Last Modified: </p>
+    </footer>
+</body>
+</html>
