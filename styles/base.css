@@ -150,6 +150,23 @@ main {
     background-color: var(--secondary-color);
     font-family: kalam;
 }
+
+.hero {
+    position: relative;
+}
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-label {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 2rem;
+}
+
+
 h1, h2 {
     font-family: "Dancing Script", cursive;
     margin: 0;
