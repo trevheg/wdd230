@@ -150,7 +150,9 @@ main {
     display: grid;
     grid-template-columns: 1fr;
 }
-
+.hero-image {
+    width: 100%;
+}
 .sidebar section{
     margin: .5rem;
     border: 1rem solid;
@@ -191,7 +193,7 @@ h2 {
     
 }
 
-/* .sections {
+.sections {
     display: grid;
     grid-template-columns: 1fr;
     
@@ -210,7 +212,7 @@ h2 {
 }
 .card li {
     font-size: 1.5rem;
-} */
+}
 
 footer {
     background-color: var(--quaternary-color);
