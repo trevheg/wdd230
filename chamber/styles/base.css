@@ -147,7 +147,34 @@ nav ul {
 main {
     background-color: var(--secondary-color);
     font-family: kalam;
+    display: grid;
+    grid-template-columns: 1fr;
 }
+
+.sidebar section{
+    margin: .5rem;
+    border: 1rem solid;
+    border-color: var(--tertiary-color);
+    border-radius: 2rem;    
+    overflow: hidden;
+    padding: 1rem;
+}
+#sidebar-header {
+    padding: 0;
+}
+.sidebar-section h2 {
+    border: .2rem solid;
+    border-radius: .5rem;
+    font-size: larger;
+    padding: .5rem;
+}
+
+.castle-picture img{
+    width: 100%;
+    /* position: absolute; */
+    object-fit: contain;
+}
+
 h1, h2 {
     font-family: "Dancing Script", cursive;
     margin: 0;
@@ -163,7 +190,8 @@ h2 {
     /* overflow: hidden; */
     
 }
-.sections {
+
+/* .sections {
     display: grid;
     grid-template-columns: 1fr;
     
@@ -174,7 +202,7 @@ h2 {
     border: 1rem solid;
     border-color: var(--tertiary-color);
     border-radius: 2rem;
-    /* padding: 1rem; */
+    
     overflow: hidden
 }
 .card p {
@@ -182,7 +210,7 @@ h2 {
 }
 .card li {
     font-size: 1.5rem;
-}
+} */
 
 footer {
     background-color: var(--quaternary-color);

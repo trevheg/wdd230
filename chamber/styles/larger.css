@@ -11,4 +11,14 @@
     }
     nav a {
     }
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sidebar {
+        grid-column: 1 / 2;
+    }
+    .main-section {
+        grid-column: 2 / 3;
+    }
 }
