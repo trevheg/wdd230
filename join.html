@@ -42,33 +42,55 @@
         
     </nav>
     <main>
-        <h1>Join us!</h1>
-        <form method="get" action="thanks.html" class="joinForm">
-                <fieldset>
-                    <legend>Please provide your info!</legend>
-                    <label>First Name* <input type="text" name="fname" required id="fname"></label>
-                    <label>Last Name* <input type="text" name="lname" required id="fname"></label>
-                    <label>Title or Postion <input type="text" name="position" id="position"></label> 
-                    <!-- Update this with the regular expression -->
-                    <label>Email* <input type="email" name="email" id="email" required placeholder="asdf@asdf.com"></label>
-                    <label>Mobile Phone <input type="tel" name="phone" id="phone" required></label>
-                    <label>Business/Organization Name <input type="text" name="orgName" id="orgName" required></label>
+        <div class="joinSections">
+            <section class="joinSection">
+                <h1>Join us!</h1>
+                <form method="get" action="thank-you.html" class="joinForm">
+                    <fieldset>
+                        <legend>Please provide your info!</legend>
+                        <label>First Name* <input type="text" name="fname" required id="fname"></label>
+                        <label>Last Name* <input type="text" name="lname" required id="fname"></label>
+                        <label>Title or Postion <input type="text" name="position" id="position"></label> 
+                        <!-- Update this with the regular expression -->
+                        <label>Email* <input type="email" name="email" id="email" required placeholder="asdf@asdf.com"></label>
+                        <label>Mobile Phone* <input type="tel" name="phone" id="phone" required></label>
+                        <label>Business/Organization Name* <input type="text" name="orgName" id="orgName" required></label>
 
-                    <div>Membership Level</div>
-                    <label><input type="radio" name="membership" value="np">NP Membership</label>
-                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
-                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+                        <div>Membership Level</div>
+                        <label><input type="radio" name="membership" value="np">NP Membership</label>
+                        <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                        <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                        <label><input type="radio" name="membership" value="gold">Gold Membership</label>
 
-                    <label> Business/Organization Description <textarea name="busDesc" id="busDesc" rows="3"></textarea></label>
-                    <!-- timestamp? -->
-                     <input type="submit" value="Join Us!">
-                </fieldset>
-        </form>
-
-        <div>
-            <h1>Benefits</h1>
+                        <label> Business/Organization Description <textarea name="busDesc" id="busDesc" rows="5"></textarea></label>
+                        <!-- timestamp? -->
+                        <input type="submit" value="Join Us!">
+                    </fieldset>
+                </form>
+            </section>
+            
+            <section class="benefits">
+                <h1>Benefits</h1>
+                <div>
+                    <h2>NP Membership</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, doloremque amet, quisquam, suscipit accusamus mollitia illo sint ducimus aperiam earum ut qui fugit. Ea, tenetur ullam quis recusandae eos amet.</p>
+                </div>
+                <div>
+                    <h2>Bronze Membersip</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequuntur, possimus obcaecati ipsam beatae, perferendis sequi, nobis blanditiis quia eaque illo velit doloremque error voluptas aut dolore sint nesciunt accusantium?</p>
+                </div>
+                <div>
+                    <h2>Silver Membersip</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequuntur, possimus obcaecati ipsam beatae, perferendis sequi, nobis blanditiis quia eaque illo velit doloremque error voluptas aut dolore sint nesciunt accusantium?</p>
+                </div>
+                <div>
+                    <h2>Gold Membersip</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequuntur, possimus obcaecati ipsam beatae, perferendis sequi, nobis blanditiis quia eaque illo velit doloremque error voluptas aut dolore sint nesciunt accusantium?</p>
+                </div>
+            </section>
+            
         </div>
+        
     </main>
     <footer>
         <p>©2024 Trevor Hegstrom USA</p>

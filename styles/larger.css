@@ -4,6 +4,9 @@
         grid-template-columns: 2fr 1fr;
 
     }
+    .joinSections {
+        grid-template-columns: 1fr 1fr;
+    }
     nav ul {
         display:flex;
         justify-content: space-around;
