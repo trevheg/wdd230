@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevor Hegstrom - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Trevor Hegstrom - course assignment portal">
+    <meta name="author" content="Trevor Hegstrom">
+    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/responsiveMenu.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Trevor Hegstrom - WDD 230 - Web Frontend Development">
+    <meta property="og:url" content="https://trevheg.github.io/wdd230/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/SJ_skyline_at_night_horizontal.jpg/799px-SJ_skyline_at_night_horizontal.jpg">
+
+</head>
+<body>
+    <header>
+        <img src="images/profile-picture.webp" alt="A photo of me at the Utah Renaissance Faire" title="A photo of Trevor at the Utah Renaissance Faire">
+        <span>Trevor Hegstrom</span>
+    </header>
+    <div id="mode">
+        🕶️
+    </div>
+    <button id="menu" title="hamburger menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html" >Form</a></li>
+        </ul>
+        
+    </nav>
+    <main>
+        <h1>Join us!</h1>
+        <form method="get" action="thanks.html" class="joinForm">
+                <fieldset>
+                    <legend>Please provide your info!</legend>
+                    <label>First Name* <input type="text" name="fname" required id="fname"></label>
+                    <label>Last Name* <input type="text" name="lname" required id="fname"></label>
+                    <label>Title or Postion <input type="text" name="position" id="position"></label> 
+                    <!-- Update this with the regular expression -->
+                    <label>Email* <input type="email" name="email" id="email" required placeholder="asdf@asdf.com"></label>
+                    <label>Mobile Phone <input type="tel" name="phone" id="phone" required></label>
+                    <label>Business/Organization Name <input type="text" name="orgName" id="orgName" required></label>
+
+                    <div>Membership Level</div>
+                    <label><input type="radio" name="membership" value="np">NP Membership</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+
+                    <label> Business/Organization Description <textarea name="busDesc" id="busDesc" rows="3"></textarea></label>
+                    <!-- timestamp? -->
+                     <input type="submit" value="Join Us!">
+                </fieldset>
+        </form>
+
+        <div>
+            <h1>Benefits</h1>
+        </div>
+    </main>
+    <footer>
+        <p>©2024 Trevor Hegstrom USA</p>
+        <p id="lastModified">Last Modified: </p>
+    </footer>
+</body>
+</html>
