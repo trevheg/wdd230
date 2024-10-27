@@ -1,0 +1,26 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+    --border: 1px solid navy;
+}
+
+table {
+    border: var(--border);
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 1rem;
+    border: var(--border);
+}
+
+table tr:first-child, table tr:nth-child(2) th:first-child{
+    background-color: navy;
+    color: white;
+}
+
+
+caption {
+    caption-side: bottom;
+}
