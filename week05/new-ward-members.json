@@ -1,3 +1,30 @@
 {
-    
+    "familyName" : "Smith",
+    "moveInDate" : 20241015,
+    "numberOfMembers" : 4,
+    "visited" : false,
+    "members" : [
+        {
+            "firstName" : "Tom",
+            "gender" : "male",
+            "birthdate" : 19800616
+        },
+        {
+            "firstName" : "Sarah",
+            "gender" : "female",
+            "birthdate" : 19820329
+        },
+        {
+            "firstName" : "Sam",
+            "gender" : "male",
+            "birthdate" : 20061025
+        },
+        {
+            "firstName" : "Madeline",
+            "gender" : "female",
+            "birthdate" : 20080214
+        }
+    ]
 }
+
+
